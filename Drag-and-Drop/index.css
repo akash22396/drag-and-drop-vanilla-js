@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* h3{color:red;} */
+
+.container{
+  padding: 1em;
+  margin-top: 1em;
+  background-color:  black;
+}
+.box{
+
+  padding: 1em;
+    background-color: white;
+  margin-top: 1em;
+  cursor: move;
+  border: 1px solid black;
+}
+.box.draging{
+  opacity: .5;
+}
